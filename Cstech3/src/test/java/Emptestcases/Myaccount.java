@@ -116,10 +116,10 @@ public void editContact() throws InterruptedException
 	
 }*/
 	
-	public static void clickWhenReady(WebElement locator, int timeOut){
-		WebDriverWait wait = new WebDriverWait(driver, timeOut);
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
-		element.click();
+	//public static void clickWhenReady(WebElement locator, int timeOut){
+	//	WebDriverWait wait = new WebDriverWait(driver, timeOut);
+	//	WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+	//	element.click();
 	}
 
-}
+//}
